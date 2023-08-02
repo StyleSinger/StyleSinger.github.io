@@ -29,7 +29,7 @@ title: "StyleSinger: Towards Zero-Shot Singing Voice Synthesis for Out-Of-Domain
 # twitter_username: jekyllrb
 # github_username:  jekyll
 livereload: true
-theme: jekyll-theme-hacker
+theme: jekyll-theme-cayman
 github:
   is_project_page: false
 
