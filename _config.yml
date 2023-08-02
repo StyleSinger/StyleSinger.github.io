@@ -2,8 +2,6 @@
 
 title: "StyleSinger: Towards Zero-Shot Singing Voice Synthesis for Out-Of-Domain Style Transfer"
 theme: jekyll-theme-cayman
-github:
-  is_project_page: false
 layout: default
 markdown: kramdown
 kramdown:
