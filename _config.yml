@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "AlignSTS: Speech-to-Singing Conversion via Cross-Modal Alignment"
+title: "StyleSinger: Towards Zero-Shot Singing Voice Synthesis for Out-Of-Domain Style Transfer"
 # email: your-email@example.com
 # description: >- # this means to ignore newlines until "baseurl:"
 #   Write an awesome description for your new site here. You can edit this
@@ -29,7 +29,7 @@ title: "AlignSTS: Speech-to-Singing Conversion via Cross-Modal Alignment"
 # twitter_username: jekyllrb
 # github_username:  jekyll
 livereload: true
-theme: jekyll-theme-cayman
+theme: jekyll-theme-architect
 github:
   is_project_page: false
 
