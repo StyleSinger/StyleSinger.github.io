@@ -27,7 +27,7 @@ title: "AlignSTS: Speech-to-Singing Conversion via Cross-Modal Alignment"
 # baseurl: "" # the subpath of your site, e.g. /blog
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
-# github_username:  jekyll
+github_username: 
 livereload: true
 theme: jekyll-theme-cayman
 github:
