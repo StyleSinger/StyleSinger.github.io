@@ -191,7 +191,7 @@ In out-of-domain (OOD) scenarios, we utilize unseen reference audio with target 
 	</tbody>
 </table>
 
-<ruby>1. Reference: 我还在逞强 AP 说着谎 AP 也没能力遮挡你去的方向</ruby>
+<ruby>3. Reference: 我还在逞强 AP 说着谎 AP 也没能力遮挡你去的方向</ruby>
 <table style='width: 100%;'>
 	<thead>
 		<tr>
