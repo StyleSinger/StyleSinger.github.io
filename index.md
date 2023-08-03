@@ -254,7 +254,7 @@ we undertake ablation studies to showcase the efficacy of various designs incorp
 		<tr>
       			<th style="text-align: center">wo DSA</th>
 			<th style="text-align: center">wo PPDP</th>
-			<th style="text-align: center">wo Diffusion Decoder</th>
+			<th style="text-align: center">wo Decoder</th>
 		</tr>
 	</thead>
 	<tbody>
