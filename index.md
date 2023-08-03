@@ -11,7 +11,7 @@ Singing Voice Synthesis (SVS) is devoted to the artistry of crafting exquisite v
 In the context of out-of-domain (OOD) scenarios, where the content of the reference voice remains unchanged
 
 <ruby>1. Reference/Target Text: 风花雪月的诗句里我在年年的成长breathe</ruby>
-<table>
+<table style='width: 100%;'>
 	<thead>
 		<tr>
 			<th style="text-align: center">Reference</th>
@@ -23,12 +23,12 @@ In the context of out-of-domain (OOD) scenarios, where the content of the refere
 		<tr>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/parallel/ref/001.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/parallel/styler/001.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/parallel/generspeech/001.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/parallel/speech/001.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
 </table>
 
-<table>
+<table style='width: 100%;'>
 	<thead>
 		<tr>
       			<th style="text-align: center">YourTTS</th>
