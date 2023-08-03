@@ -10,26 +10,37 @@ Singing Voice Synthesis (SVS) is devoted to the artistry of crafting exquisite v
 
 In the context of out-of-domain (OOD) scenarios, where the content of the reference voice remains unchanged
 
-<ruby>Reference/Target Text: The rainbow is a division of white light into many beautiful colors.</ruby>
+<ruby>1. Reference/Target Text: 风花雪月的诗句里我在年年的成长breathe</ruby>
 <table>
 	<thead>
 		<tr>
 			<th style="text-align: center">Reference</th>
 			<th style="text-align: center">Styler</th>
 			<th style="text-align: center">GenerSpeech</th>
-      <th style="text-align: center">YourTTS</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/parallel/ref/001.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/parallel/styler/001.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/parallel/generspeech/001.wav" type="audio/wav"></audio></td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+      			<th style="text-align: center">YourTTS</th>
 			<th style="text-align: center">MS RMSSinger</th>
 			<th style="text-align: center">StyleSinger</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/parallel/VCTK/ref/001.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/parallel/VCTK/styler/001.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/parallel/VCTK/generspeech/001.wav" type="audio/wav"></audio></td>
-      <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/parallel/VCTK/yourtts/001.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/parallel/VCTK/rms/001.wav" type="audio/wav"></audio></td>
-      <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/parallel/stylesinger/001.wav" type="audio/wav"></audio></td>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/parallel/yourtts/001.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/parallel/rms/001.wav" type="audio/wav"></audio></td>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/parallel/stylesinger/001.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
 </table>
