@@ -10,7 +10,7 @@ Singing Voice Synthesis (SVS) is devoted to the artistry of crafting exquisite v
 
 In the context of out-of-domain (OOD) scenarios, where the content of the reference voice remains unchanged
 
-<ruby>1. Reference/Target Text: 风花雪月的诗句里我在年年的成长breathe</ruby>
+<ruby>1. Reference/Target Text: 风花雪月的诗句里我在年年的成长 AP</ruby>
 <table style='width: 100%;'>
 	<thead>
 		<tr>
@@ -45,9 +45,80 @@ In the context of out-of-domain (OOD) scenarios, where the content of the refere
 	</tbody>
 </table>
 
+<ruby>2. Reference/Target Text: 为春风吹落 SP AP 只是简简单单的爱过</ruby>
+<table style='width: 100%;'>
+	<thead>
+		<tr>
+			<th style="text-align: center">Reference</th>
+			<th style="text-align: center">Styler</th>
+			<th style="text-align: center">GenerSpeech</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/parallel/ref/002.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/parallel/styler/002.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/parallel/speech/002.wav" type="audio/wav"></audio></td>
+		</tr>
+	</tbody>
+</table>
+
+<table style='width: 100%;'>
+	<thead>
+		<tr>
+      			<th style="text-align: center">YourTTS</th>
+			<th style="text-align: center">MS RMSSinger</th>
+			<th style="text-align: center">StyleSinger</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/parallel/yourtts/002.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/parallel/rms/002.wav" type="audio/wav"></audio></td>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/parallel/styesinger/002.wav" type="audio/wav"></audio></td>
+		</tr>
+	</tbody>
+</table>
+
+<ruby>3. Reference/Target Text: 我还在逞强 AP 说着谎 AP 也没能力遮挡你去的方向</ruby>
+<table style='width: 100%;'>
+	<thead>
+		<tr>
+			<th style="text-align: center">Reference</th>
+			<th style="text-align: center">Styler</th>
+			<th style="text-align: center">GenerSpeech</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/parallel/ref/003.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/parallel/styler/003.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/parallel/speech/003.wav" type="audio/wav"></audio></td>
+		</tr>
+	</tbody>
+</table>
+
+<table style='width: 100%;'>
+	<thead>
+		<tr>
+      			<th style="text-align: center">YourTTS</th>
+			<th style="text-align: center">MS RMSSinger</th>
+			<th style="text-align: center">StyleSinger</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/parallel/yourtts/003.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/parallel/rms/003.wav" type="audio/wav"></audio></td>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/parallel/styesinger/003.wav" type="audio/wav"></audio></td>
+		</tr>
+	</tbody>
+</table>
 
 # Non-Parallel Style Transfer Samples
 
 In out-of-domain (OOD) scenarios, we utilize unseen reference audio with target notes and lyrics to synthesize the target singing voice. 
+
+
 
 # Ablation Studies
