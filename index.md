@@ -137,19 +137,19 @@ In out-of-domain (OOD) scenarios, we utilize unseen reference audio with target 
 <table style='width: 100%;'>
 	<thead>
 		<tr>
+			<th style="text-align: center">Styler</th>
+			<th style="text-align: center">GenerSpeech</th>
       			<th style="text-align: center">YourTTS</th>
 			<th style="text-align: center">MS RMSSinger</th>
 			<th style="text-align: center">StyleSinger</th>
-			<th style="text-align: center">Styler</th>
-			<th style="text-align: center">GenerSpeech</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/nonparallel/styler/001.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/nonparallel/speech/001.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/nonparallel/generspeech/001.wav" type="audio/wav"></audio></td>
       			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/nonparallel/yourtts/001.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/nonparallel/rms/001.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/nonparallel/rmssinger/001.wav" type="audio/wav"></audio></td>
       			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/nonparallel/styesinger/001.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
@@ -172,7 +172,7 @@ we undertake ablation studies to showcase the efficacy of various designs incorp
 		<tr>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/ablation/ref/001.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/ablation/styler/001.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/ablation/speech/001.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/ablation/generspeech/001.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -188,7 +188,7 @@ we undertake ablation studies to showcase the efficacy of various designs incorp
 	<tbody>
 		<tr>
       			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/ablation/yourtts/001.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/ablation/rms/001.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/ablation/rmssinger/001.wav" type="audio/wav"></audio></td>
       			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/ablation/styesinger/001.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
