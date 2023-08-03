@@ -150,7 +150,79 @@ In out-of-domain (OOD) scenarios, we utilize unseen reference audio with target 
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/nonparallel/generspeech/001.wav" type="audio/wav"></audio></td>
       			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/nonparallel/yourtts/001.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/nonparallel/rmssinger/001.wav" type="audio/wav"></audio></td>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/nonparallel/styesinger/001.wav" type="audio/wav"></audio></td>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/nonparallel/stlyesinger/001.wav" type="audio/wav"></audio></td>
+		</tr>
+	</tbody>
+</table>
+
+<ruby>2. Reference: 为春风吹落 AP SP AP 只是简简单单的爱过我还</ruby>
+<table style='width: 100%;'>
+	<thead>
+		<tr>
+			<th style="text-align: center">Reference</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/nonparallel/ref/002.wav" type="audio/wav"></audio></td>
+		</tr>
+	</tbody>
+</table>
+
+<ruby>Target: 幸福没有那么容易 AP 才会特别让人着迷 AP 什么都不懂的年纪 AP</ruby>
+<table style='width: 100%;'>
+	<thead>
+		<tr>
+			<th style="text-align: center">Styler</th>
+			<th style="text-align: center">GenerSpeech</th>
+      			<th style="text-align: center">YourTTS</th>
+			<th style="text-align: center">MS RMSSinger</th>
+			<th style="text-align: center">StyleSinger</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/nonparallel/styler/002.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/nonparallel/generspeech/002.wav" type="audio/wav"></audio></td>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/nonparallel/yourtts/002.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/nonparallel/rmssinger/002.wav" type="audio/wav"></audio></td>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/nonparallel/stlyesinger/002.wav" type="audio/wav"></audio></td>
+		</tr>
+	</tbody>
+</table>
+
+<ruby>1. Reference: 我还在逞强 AP 说着谎 AP 也没能力遮挡你去的方向</ruby>
+<table style='width: 100%;'>
+	<thead>
+		<tr>
+			<th style="text-align: center">Reference</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/nonparallel/ref/003.wav" type="audio/wav"></audio></td>
+		</tr>
+	</tbody>
+</table>
+
+<ruby>Target: 我就这样告别山下的家 SP AP</ruby>
+<table style='width: 100%;'>
+	<thead>
+		<tr>
+			<th style="text-align: center">Styler</th>
+			<th style="text-align: center">GenerSpeech</th>
+      			<th style="text-align: center">YourTTS</th>
+			<th style="text-align: center">MS RMSSinger</th>
+			<th style="text-align: center">StyleSinger</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/nonparallel/styler/003.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/nonparallel/generspeech/003.wav" type="audio/wav"></audio></td>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/nonparallel/yourtts/003.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/nonparallel/rmssinger/003.wav" type="audio/wav"></audio></td>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/nonparallel/stlyesinger/003.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -189,7 +261,7 @@ we undertake ablation studies to showcase the efficacy of various designs incorp
 		<tr>
       			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/ablation/yourtts/001.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/ablation/rmssinger/001.wav" type="audio/wav"></audio></td>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/ablation/styesinger/001.wav" type="audio/wav"></audio></td>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/ablation/stlyesinger/001.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
 </table>
