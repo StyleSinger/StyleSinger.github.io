@@ -229,7 +229,7 @@ In out-of-domain (OOD) scenarios, we utilize unseen reference audio with target 
 
 # Ablation Studies
 
-we undertake ablation studies to showcase the efficacy of various designs incorporated within StyleSinger.
+We undertake ablation studies to showcase the efficacy of various designs incorporated within StyleSinger.
 
 <ruby>1. Reference/Target: 是我唯一沉溺 AP 你是爱我的 AP 就不怕有缝隙 SP</ruby>
 <table style='width: 100%;'>
