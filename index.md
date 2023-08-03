@@ -40,7 +40,7 @@ In the context of out-of-domain (OOD) scenarios, where the content of the refere
 		<tr>
       			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/parallel/yourtts/001.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/parallel/rms/001.wav" type="audio/wav"></audio></td>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/parallel/stylesinger/001.wav" type="audio/wav"></audio></td>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/parallel/styesinger/001.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
 </table>
