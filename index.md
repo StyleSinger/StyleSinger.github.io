@@ -32,7 +32,7 @@ In the context of out-of-domain (OOD) scenarios, where the content of the refere
 	<thead>
 		<tr>
       			<th style="text-align: center">YourTTS</th>
-			<th style="text-align: center">MS RMSSinger</th>
+			<th style="text-align: center">Multi-Style RMSSinger</th>
 			<th style="text-align: center">StyleSinger</th>
 		</tr>
 	</thead>
@@ -67,7 +67,7 @@ In the context of out-of-domain (OOD) scenarios, where the content of the refere
 	<thead>
 		<tr>
       			<th style="text-align: center">YourTTS</th>
-			<th style="text-align: center">MS RMSSinger</th>
+			<th style="text-align: center">Multi-Style RMSSinger</th>
 			<th style="text-align: center">StyleSinger</th>
 		</tr>
 	</thead>
@@ -102,7 +102,7 @@ In the context of out-of-domain (OOD) scenarios, where the content of the refere
 	<thead>
 		<tr>
       			<th style="text-align: center">YourTTS</th>
-			<th style="text-align: center">MS RMSSinger</th>
+			<th style="text-align: center">Multi-Style RMSSinger</th>
 			<th style="text-align: center">StyleSinger</th>
 		</tr>
 	</thead>
@@ -140,7 +140,7 @@ In out-of-domain (OOD) scenarios, we utilize unseen reference audio with target 
 			<th style="text-align: center">Styler</th>
 			<th style="text-align: center">GenerSpeech</th>
       			<th style="text-align: center">YourTTS</th>
-			<th style="text-align: center">MS RMSSinger</th>
+			<th style="text-align: center">Multi-Style RMSSinger</th>
 			<th style="text-align: center">StyleSinger</th>
 		</tr>
 	</thead>
@@ -150,7 +150,7 @@ In out-of-domain (OOD) scenarios, we utilize unseen reference audio with target 
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/nonparallel/generspeech/001.wav" type="audio/wav"></audio></td>
       			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/nonparallel/yourtts/001.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/nonparallel/rmssinger/001.wav" type="audio/wav"></audio></td>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/nonparallel/stlyesinger/001.wav" type="audio/wav"></audio></td>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/nonparallel/stylesinger/001.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -176,7 +176,7 @@ In out-of-domain (OOD) scenarios, we utilize unseen reference audio with target 
 			<th style="text-align: center">Styler</th>
 			<th style="text-align: center">GenerSpeech</th>
       			<th style="text-align: center">YourTTS</th>
-			<th style="text-align: center">MS RMSSinger</th>
+			<th style="text-align: center">Multi-Style RMSSinger</th>
 			<th style="text-align: center">StyleSinger</th>
 		</tr>
 	</thead>
@@ -186,7 +186,7 @@ In out-of-domain (OOD) scenarios, we utilize unseen reference audio with target 
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/nonparallel/generspeech/002.wav" type="audio/wav"></audio></td>
       			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/nonparallel/yourtts/002.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/nonparallel/rmssinger/002.wav" type="audio/wav"></audio></td>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/nonparallel/stlyesinger/002.wav" type="audio/wav"></audio></td>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/nonparallel/stylesinger/002.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -212,7 +212,7 @@ In out-of-domain (OOD) scenarios, we utilize unseen reference audio with target 
 			<th style="text-align: center">Styler</th>
 			<th style="text-align: center">GenerSpeech</th>
       			<th style="text-align: center">YourTTS</th>
-			<th style="text-align: center">MS RMSSinger</th>
+			<th style="text-align: center">Multi-Style RMSSinger</th>
 			<th style="text-align: center">StyleSinger</th>
 		</tr>
 	</thead>
@@ -222,7 +222,7 @@ In out-of-domain (OOD) scenarios, we utilize unseen reference audio with target 
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/nonparallel/generspeech/003.wav" type="audio/wav"></audio></td>
       			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/nonparallel/yourtts/003.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/nonparallel/rmssinger/003.wav" type="audio/wav"></audio></td>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/nonparallel/stlyesinger/003.wav" type="audio/wav"></audio></td>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/nonparallel/stylesinger/003.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -236,15 +236,15 @@ we undertake ablation studies to showcase the efficacy of various designs incorp
 	<thead>
 		<tr>
 			<th style="text-align: center">Reference</th>
-			<th style="text-align: center">Styler</th>
-			<th style="text-align: center">GenerSpeech</th>
+			<th style="text-align: center">Full Model</th>
+			<th style="text-align: center">wo Uncertainty Modeling Layer Norm</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/ablation/ref/001.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/ablation/styler/001.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/ablation/generspeech/001.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/ablation/stylesinger/001.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/ablation/wo umln/001.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -252,16 +252,16 @@ we undertake ablation studies to showcase the efficacy of various designs incorp
 <table style='width: 100%;'>
 	<thead>
 		<tr>
-      			<th style="text-align: center">YourTTS</th>
-			<th style="text-align: center">MS RMSSinger</th>
-			<th style="text-align: center">StyleSinger</th>
+      			<th style="text-align: center">wo Detailed Style Adaptor</th>
+			<th style="text-align: center">wo Parallel Pitch Diffusion Predictor</th>
+			<th style="text-align: center">wo Diffusion Decoder</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/ablation/yourtts/001.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/ablation/rmssinger/001.wav" type="audio/wav"></audio></td>
-      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/ablation/stlyesinger/001.wav" type="audio/wav"></audio></td>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/ablation/wo dsa/001.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/ablation/wo PPDP/001.wav" type="audio/wav"></audio></td>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/ablation/wo decoder/001.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
 </table>
