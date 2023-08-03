@@ -252,7 +252,7 @@ We undertake ablation studies to showcase the efficacy of various designs incorp
 <table style='width: 100%;'>
 	<thead>
 		<tr>
-      			<th style="text-align: center">wo DSA</th>
+      			<th style="text-align: center">wo RSE</th>
 			<th style="text-align: center">wo PPDP</th>
 			<th style="text-align: center">wo Decoder</th>
 		</tr>
