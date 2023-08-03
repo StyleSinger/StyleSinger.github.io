@@ -32,7 +32,7 @@ In the context of out-of-domain (OOD) scenarios, where the content of the refere
 	<thead>
 		<tr>
       			<th style="text-align: center">YourTTS</th>
-			<th style="text-align: center">Multi-Style RMSSinger</th>
+			<th style="text-align: center">MS RMSSinger</th>
 			<th style="text-align: center">StyleSinger</th>
 		</tr>
 	</thead>
@@ -67,7 +67,7 @@ In the context of out-of-domain (OOD) scenarios, where the content of the refere
 	<thead>
 		<tr>
       			<th style="text-align: center">YourTTS</th>
-			<th style="text-align: center">Multi-Style RMSSinger</th>
+			<th style="text-align: center">MS RMSSinger</th>
 			<th style="text-align: center">StyleSinger</th>
 		</tr>
 	</thead>
@@ -102,7 +102,7 @@ In the context of out-of-domain (OOD) scenarios, where the content of the refere
 	<thead>
 		<tr>
       			<th style="text-align: center">YourTTS</th>
-			<th style="text-align: center">Multi-Style RMSSinger</th>
+			<th style="text-align: center">MS RMSSinger</th>
 			<th style="text-align: center">StyleSinger</th>
 		</tr>
 	</thead>
@@ -140,7 +140,7 @@ In out-of-domain (OOD) scenarios, we utilize unseen reference audio with target 
 			<th style="text-align: center">Styler</th>
 			<th style="text-align: center">GenerSpeech</th>
       			<th style="text-align: center">YourTTS</th>
-			<th style="text-align: center">Multi-Style RMSSinger</th>
+			<th style="text-align: center">MS RMSSinger</th>
 			<th style="text-align: center">StyleSinger</th>
 		</tr>
 	</thead>
@@ -176,7 +176,7 @@ In out-of-domain (OOD) scenarios, we utilize unseen reference audio with target 
 			<th style="text-align: center">Styler</th>
 			<th style="text-align: center">GenerSpeech</th>
       			<th style="text-align: center">YourTTS</th>
-			<th style="text-align: center">Multi-Style RMSSinger</th>
+			<th style="text-align: center">MS RMSSinger</th>
 			<th style="text-align: center">StyleSinger</th>
 		</tr>
 	</thead>
@@ -212,7 +212,7 @@ In out-of-domain (OOD) scenarios, we utilize unseen reference audio with target 
 			<th style="text-align: center">Styler</th>
 			<th style="text-align: center">GenerSpeech</th>
       			<th style="text-align: center">YourTTS</th>
-			<th style="text-align: center">Multi-Style RMSSinger</th>
+			<th style="text-align: center">MS RMSSinger</th>
 			<th style="text-align: center">StyleSinger</th>
 		</tr>
 	</thead>
@@ -237,7 +237,7 @@ we undertake ablation studies to showcase the efficacy of various designs incorp
 		<tr>
 			<th style="text-align: center">Reference</th>
 			<th style="text-align: center">Full Model</th>
-			<th style="text-align: center">wo Uncertainty Modeling Layer Norm</th>
+			<th style="text-align: center">wo UMLN</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -252,8 +252,8 @@ we undertake ablation studies to showcase the efficacy of various designs incorp
 <table style='width: 100%;'>
 	<thead>
 		<tr>
-      			<th style="text-align: center">wo Detailed Style Adaptor</th>
-			<th style="text-align: center">wo Parallel Pitch Diffusion Predictor</th>
+      			<th style="text-align: center">wo DSA</th>
+			<th style="text-align: center">wo PPDP</th>
 			<th style="text-align: center">wo Diffusion Decoder</th>
 		</tr>
 	</thead>
