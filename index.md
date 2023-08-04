@@ -236,7 +236,7 @@ We undertake ablation studies to showcase the efficacy of various designs incorp
 	<thead>
 		<tr>
 			<th style="text-align: center">Reference</th>
-			<th style="text-align: center">Full Model</th>
+			<th style="text-align: center">StyleSinger</th>
 			<th style="text-align: center">wo UMLN</th>
 		</tr>
 	</thead>
@@ -253,7 +253,7 @@ We undertake ablation studies to showcase the efficacy of various designs incorp
 	<thead>
 		<tr>
       			<th style="text-align: center">wo RSE</th>
-			<th style="text-align: center">wo PPDP</th>
+			<th style="text-align: center">wo Pitch</th>
 			<th style="text-align: center">wo Decoder</th>
 		</tr>
 	</thead>
