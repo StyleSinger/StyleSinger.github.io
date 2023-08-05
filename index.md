@@ -7,13 +7,12 @@
 Singing Voice Synthesis (SVS) is devoted to the artistry of crafting exquisite vocal melodies by using lyrics and musical notations. 
 The increasing demand for singing voice style transfer in out-of-domain (OOD) scenarios poses a challenge for SVS systems.
 Existing SVS methods encounter a decline in the quality of synthesized vocal renditions in OOD scenarios. 
-Moreover, there is a scarcity of methodologies proficient in capturing and transferring the intricate and dynamic nature of singing voice styles. 
+Moreover, there is a scarcity of methodologies proficient in capturing the intricate and dynamic nature of singing voice style (such as timbre, emotion, pronunciation and articulation skills). 
 To overcome these challenges, we propose StyleSinger, the first singing voice synthesis model for high-fidelity zero-shot style transfer of out-of-domain reference samples. 
 It primarily encompasses two approaches to enhance the effectiveness: 
-1) the Residual Style Extractor (RSE) is employed to meticulously model the inherent attributes of vocal performances, thereby encapsulating the intricate subtleties of diverse style characteristics. 
-2) the Uncertainty Modeling Layer Norm (UMLN) is utilized as a method to bolster the model's overall resilience and adaptability. 
-Our comprehensive evaluations in zero-shot style transfer unequivocally establish that StyleSinger outperforms baseline models in terms of quality and similarity to reference audio. 
-Access to audio samples can be found at https://stylesinger.github.io/.
+1) the Residual Style Extractor (RSE) is employed to meticulously model the diverse style characteristics. 
+2) the Uncertainty Modeling Layer Norm (UMLN) is utilized to bolster the model's overall resilience and adaptability. 
+Our comprehensive evaluations in zero-shot style transfer unequivocally establish that StyleSinger outperforms baseline models in quality and similarity to reference audio. 
 
 # Parallel Style Transfer Samples
 
