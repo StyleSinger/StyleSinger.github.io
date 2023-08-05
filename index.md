@@ -16,7 +16,7 @@ Our comprehensive evaluations in zero-shot style transfer unequivocally establis
 
 # Parallel Style Transfer Samples
 
-In the context of out-of-domain (OOD) scenarios, where the content of the reference voice remains unchanged
+In the context of out-of-domain (OOD) scenarios, where the content of the reference voice remains unchanged.
 
 <ruby>1. Reference/Target: 风花雪月的诗句里我在年年的成长 AP</ruby>
 <table style='width: 100%;'>
@@ -128,6 +128,7 @@ In the context of out-of-domain (OOD) scenarios, where the content of the refere
 In out-of-domain (OOD) scenarios, we utilize unseen reference audio with target notes and lyrics to synthesize the target singing voice. 
 
 <ruby>1. Reference: 风花雪月的诗句里我在年年的成长 AP</ruby>
+<ruby>Effectively capturing the timbre, pitch transitions, vocal techniques, and the delicate articulation skill.</ruby>
 <table style='width: 100%;'>
 	<thead>
 		<tr>
@@ -164,6 +165,7 @@ In out-of-domain (OOD) scenarios, we utilize unseen reference audio with target 
 </table>
 
 <ruby>2. Reference: 为春风吹落 AP SP AP 只是简简单单的爱过我还</ruby>
+<ruby>Successfully transferring the timbre, vocal techniques, and the subtle elongation in articulation skill.</ruby>
 <table style='width: 100%;'>
 	<thead>
 		<tr>
@@ -200,6 +202,7 @@ In out-of-domain (OOD) scenarios, we utilize unseen reference audio with target 
 </table>
 
 <ruby>3. Reference: 我还在逞强 AP 说着谎 AP 也没能力遮挡你去的方向</ruby>
+<ruby>Successfully transferring the timbre, vocal techniques, and the subtle elongation in articulation skill.</ruby>
 <table style='width: 100%;'>
 	<thead>
 		<tr>
