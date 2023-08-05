@@ -142,7 +142,7 @@ In out-of-domain (OOD) scenarios, we utilize unseen reference audio with target 
 	</tbody>
 </table>
 
-<ruby>Target: AP 塞纳河畔左岸的咖啡我手一杯 AP 品尝你的美 AP 留下唇印的嘴 SP</ruby>
+<ruby>Target: 吹向我脸庞 AP 想起你轻柔的话语 AP 曾打湿我眼眶 AP</ruby>
 <table style='width: 100%;'>
 	<thead>
 		<tr>
