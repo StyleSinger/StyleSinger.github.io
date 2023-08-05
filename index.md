@@ -201,8 +201,8 @@ In out-of-domain (OOD) scenarios, we utilize unseen reference audio with target 
 	</tbody>
 </table>
 
-<ruby>3. Reference: 我还在逞强 AP 说着谎 AP 也没能力遮挡你去的方向</ruby>
-<ruby>Successfully transferring the timbre, vocal techniques, and the subtle elongation in articulation skill.</ruby>
+<ruby>3. Reference: 圈圈圆圆圈圈天天年年天天的我深深看你的脸 AP 生气的温柔埋怨的温柔 SP</ruby>
+<ruby>Successfully transferring the timbre, vocal techniques, vibrato skill and the subtle elongation in articulation skill.</ruby>
 <table style='width: 100%;'>
 	<thead>
 		<tr>
@@ -216,7 +216,7 @@ In out-of-domain (OOD) scenarios, we utilize unseen reference audio with target 
 	</tbody>
 </table>
 
-<ruby>Target: 我就这样告别山下的家 SP AP</ruby>
+<ruby>Target: 修炼爱情的心酸 AP 学会放好以前的渴望 AP 我们那些信仰要忘记多难</ruby>
 <table style='width: 100%;'>
 	<thead>
 		<tr>
