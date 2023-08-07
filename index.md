@@ -129,7 +129,7 @@ In out-of-domain (OOD) scenarios, we utilize unseen reference audio with target 
 
 <ruby>1. Reference: 风花雪月的诗句里我在年年的成长 AP</ruby>
 <ruby>Effectively capturing the timbre, pitch transitions, vocal techniques, and the delicate articulation skill.</ruby>
-<table style='width: 100%;'>
+<table style='width: 33%;'>
 	<thead>
 		<tr>
 			<th style="text-align: center">Reference</th>
@@ -160,7 +160,7 @@ In out-of-domain (OOD) scenarios, we utilize unseen reference audio with target 
 	</tbody>
 </table>
 
-<table style='width: 100%;'>
+<table style='width: 66%;'>
 	<thead>
 		<tr>
 			<th style="text-align: center">MS RMSSinger</th>
@@ -177,7 +177,7 @@ In out-of-domain (OOD) scenarios, we utilize unseen reference audio with target 
 
 <ruby>2. Reference: 为春风吹落 AP SP AP 只是简简单单的爱过我还</ruby>
 <ruby>Successfully transferring the timbre, vocal techniques, and the subtle elongation in articulation skill.</ruby>
-<table style='width: 100%;'>
+<table style='width: 33%;'>
 	<thead>
 		<tr>
 			<th style="text-align: center">Reference</th>
@@ -208,7 +208,7 @@ In out-of-domain (OOD) scenarios, we utilize unseen reference audio with target 
 	</tbody>
 </table>
 
-<table style='width: 100%;'>
+<table style='width: 66%;'>
 	<thead>
 		<tr>
 			<th style="text-align: center">MS RMSSinger</th>
@@ -225,7 +225,7 @@ In out-of-domain (OOD) scenarios, we utilize unseen reference audio with target 
 
 <ruby>3. Reference: 圈圈圆圆圈圈天天年年天天的我深深看你的脸 AP 生气的温柔埋怨的温柔 SP</ruby>
 <ruby>Successfully transferring the timbre, vocal techniques, vibrato skill and the subtle elongation in articulation skill.</ruby>
-<table style='width: 100%;'>
+<table style='width: 33%;'>
 	<thead>
 		<tr>
 			<th style="text-align: center">Reference</th>
@@ -256,7 +256,7 @@ In out-of-domain (OOD) scenarios, we utilize unseen reference audio with target 
 	</tbody>
 </table>
 
-<table style='width: 100%;'>
+<table style='width: 66%;'>
 	<thead>
 		<tr>
 			<th style="text-align: center">MS RMSSinger</th>
