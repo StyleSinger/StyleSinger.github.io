@@ -18,7 +18,7 @@ Access to audio samples can be found at https://stylesinger.github.io/.
 
 In the context of out-of-domain (OOD) scenarios, where the content of the reference voice remains unchanged.
 
-<ruby>1. Reference/Target: 风花雪月的诗句里我在年年的成长 AP</ruby>
+1. Reference/Target: 风花雪月的诗句里我在年年的成长 AP
 <table style='width: 100%;'>
 	<thead>
 		<tr>
@@ -53,7 +53,7 @@ In the context of out-of-domain (OOD) scenarios, where the content of the refere
 	</tbody>
 </table>
 
-<ruby>2. Reference/Target: 为春风吹落 AP SP AP 只是简简单单的爱过我还</ruby>
+2. Reference/Target: 为春风吹落 AP SP AP 只是简简单单的爱过我还
 <table style='width: 100%;'>
 	<thead>
 		<tr>
@@ -88,7 +88,7 @@ In the context of out-of-domain (OOD) scenarios, where the content of the refere
 	</tbody>
 </table>
 
-<ruby>3. Reference/Target: 我还在逞强 AP 说着谎 AP 也没能力遮挡你去的方向</ruby>
+3. Reference/Target: 我还在逞强 AP 说着谎 AP 也没能力遮挡你去的方向
 <table style='width: 100%;'>
 	<thead>
 		<tr>
@@ -127,8 +127,8 @@ In the context of out-of-domain (OOD) scenarios, where the content of the refere
 
 In out-of-domain (OOD) scenarios, we utilize unseen reference audio with target notes and lyrics to synthesize the target singing voice. 
 
-<ruby>1. Reference: 风花雪月的诗句里我在年年的成长 AP</ruby>
-<ruby>Effectively capturing the timbre, pitch transitions, vocal techniques, and the delicate articulation skill.</ruby>
+1. Reference: 风花雪月的诗句里我在年年的成长 AP
+Effectively capturing the timbre, pitch transitions, vocal techniques, and the delicate articulation skill.
 <table style='width: 33.3%;'>
 	<thead>
 		<tr>
@@ -142,7 +142,7 @@ In out-of-domain (OOD) scenarios, we utilize unseen reference audio with target 
 	</tbody>
 </table>
 
-<ruby>Target: 吹向我脸庞 AP 想起你轻柔的话语 AP 曾打湿我眼眶 AP</ruby>
+Target: 吹向我脸庞 AP 想起你轻柔的话语 AP 曾打湿我眼眶 AP
 <table style='width: 100%;'>
 	<thead>
 		<tr>
@@ -175,8 +175,8 @@ In out-of-domain (OOD) scenarios, we utilize unseen reference audio with target 
 	</tbody>
 </table>
 
-<ruby>2. Reference: 为春风吹落 AP SP AP 只是简简单单的爱过我还</ruby>
-<ruby>Successfully transferring the timbre, vocal techniques, and the subtle elongation in articulation skill.</ruby>
+2. Reference: 为春风吹落 AP SP AP 只是简简单单的爱过我还
+Successfully transferring the timbre, vocal techniques, and the subtle elongation in articulation skill.
 <table style='width: 33.3%;'>
 	<thead>
 		<tr>
@@ -190,7 +190,7 @@ In out-of-domain (OOD) scenarios, we utilize unseen reference audio with target 
 	</tbody>
 </table>
 
-<ruby>Target: 幸福没有那么容易 AP 才会特别让人着迷 AP 什么都不懂的年纪 AP</ruby>
+Target: 幸福没有那么容易 AP 才会特别让人着迷 AP 什么都不懂的年纪 AP
 <table style='width: 100%;'>
 	<thead>
 		<tr>
@@ -223,8 +223,8 @@ In out-of-domain (OOD) scenarios, we utilize unseen reference audio with target 
 	</tbody>
 </table>
 
-<ruby>3. Reference: 圈圈圆圆圈圈天天年年天天的我深深看你的脸 AP 生气的温柔埋怨的温柔 SP</ruby>
-<ruby>Successfully transferring the timbre, vocal techniques, vibrato skill and the subtle elongation in articulation skill.</ruby>
+3. Reference: 圈圈圆圆圈圈天天年年天天的我深深看你的脸 AP 生气的温柔埋怨的温柔 SP
+Successfully transferring the timbre, vocal techniques, vibrato skill and the subtle elongation in articulation skill.
 <table style='width: 33.3%;'>
 	<thead>
 		<tr>
@@ -238,7 +238,7 @@ In out-of-domain (OOD) scenarios, we utilize unseen reference audio with target 
 	</tbody>
 </table>
 
-<ruby>Target: 修炼爱情的心酸 AP 学会放好以前的渴望 AP 我们那些信仰要忘记多难</ruby>
+Target: 修炼爱情的心酸 AP 学会放好以前的渴望 AP 我们那些信仰要忘记多难
 <table style='width: 100%;'>
 	<thead>
 		<tr>
@@ -276,7 +276,7 @@ In out-of-domain (OOD) scenarios, we utilize unseen reference audio with target 
 
 We undertake ablation studies to showcase the efficacy of various designs incorporated within StyleSinger.
 
-<ruby>1. Reference/Target: 是我唯一沉溺 AP 你是爱我的 AP 就不怕有缝隙 SP</ruby>
+1. Reference/Target: 是我唯一沉溺 AP 你是爱我的 AP 就不怕有缝隙 SP
 <table style='width: 100%;'>
 	<thead>
 		<tr>
