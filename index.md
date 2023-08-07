@@ -128,6 +128,7 @@ In the context of out-of-domain (OOD) scenarios, where the content of the refere
 In out-of-domain (OOD) scenarios, we utilize unseen reference audio with target notes and lyrics to synthesize the target singing voice. 
 
 1. Reference: 风花雪月的诗句里我在年年的成长 AP
+
 Effectively capturing the timbre, pitch transitions, vocal techniques, and the delicate articulation skill.
 <table style='width: 33.3%;'>
 	<thead>
@@ -176,6 +177,7 @@ Target: 吹向我脸庞 AP 想起你轻柔的话语 AP 曾打湿我眼眶 AP
 </table>
 
 2. Reference: 为春风吹落 AP SP AP 只是简简单单的爱过我还
+
 Successfully transferring the timbre, vocal techniques, and the subtle elongation in articulation skill.
 <table style='width: 33.3%;'>
 	<thead>
@@ -224,6 +226,7 @@ Target: 幸福没有那么容易 AP 才会特别让人着迷 AP 什么都不懂�
 </table>
 
 3. Reference: 圈圈圆圆圈圈天天年年天天的我深深看你的脸 AP 生气的温柔埋怨的温柔 SP
+
 Successfully transferring the timbre, vocal techniques, vibrato skill and the subtle elongation in articulation skill.
 <table style='width: 33.3%;'>
 	<thead>
