@@ -1,6 +1,3 @@
-{:.no_toc}
-* toc
-{:toc}
 
 # Abstract
 
