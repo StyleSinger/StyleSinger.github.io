@@ -270,6 +270,7 @@ Target: 修炼爱情的心酸 AP 学会放好以前的渴望 AP 我们那些信�
 # Ablation Studies
 
 We undertake ablation studies to showcase the efficacy of various designs incorporated within StyleSinger.
+UMLN and RSA is the Uncertainty Modeling Layer Norm and the Residual Style Adaptor, while Pitch and Decoder means the Pitch Diffusion Predictor and the Diffusion Decoder.
 
 1. Reference/Target: 是我唯一沉溺 AP 你是爱我的 AP 就不怕有缝隙 SP
 <table style='width: 100%;'>
