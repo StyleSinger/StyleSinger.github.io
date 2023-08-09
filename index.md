@@ -4,7 +4,7 @@
 
 # Abstract
 
-Style transfer for out-of-domain (OOD) Sing Voice Synthesis (SVS) focuses on generating high-quality singing samples with unseen style (such as timbre, emotion, pronunciation and articulation skills) derived from a reference audio. However, existing SVS methods encounter a decline in the quality of synthesized singing voices in OOD scenarios, as they rest upon the assumption that the target vocal attributes are discernible during the training phase. Moreover, the endeavor to model the intricate nuances of singing voice styles is an arduous task, as singing voices possess a remarkable degree of expressiveness. To overcome these challenges, we propose StyleSinger, the first singing voice synthesis model for zero-shot style transfer of out-of-domain reference samples. StyleSinger incorporates two key approaches for enhanced effectiveness: 1) the Uncertainty Modeling Layer Norm (UMLN) to perturb the style attributes within the content representation during the training phase so improve the model generalization, and 2) the Residual Style Adaptor (RSA) which employs the Residual Quantization (RQ) module to capture diverse style characteristics in singing voices. Our comprehensive evaluations in zero-shot style transfer unequivocally demonstrate that StyleSinger surpasses baseline models in terms of quality and similarity to the reference audio. Access to audio samples can be found at https://stylesinger.github.io/.
+Style transfer for out-of-domain (OOD) Sing Voice Synthesis (SVS) focuses on generating high-quality singing samples with unseen style (such as timbre, emotion, pronunciation and articulation skills) derived from a reference audio. However, existing SVS methods encounter a decline in the quality of synthesized singing voices in OOD scenarios, as they rest upon the assumption that the target vocal attributes are discernible during the training phase. Moreover, the endeavor to model the intricate nuances of singing voice styles is an arduous task, as singing voices possess a remarkable degree of expressiveness. To overcome these challenges, we propose StyleSinger, the first singing voice synthesis model for zero-shot style transfer of out-of-domain reference samples. StyleSinger incorporates two key approaches for enhanced effectiveness: 1) the Uncertainty Modeling Layer Norm (UMLN) to perturb the style attributes within the content representation during the training phase so improve the model generalization, and 2) the Residual Style Adaptor (RSA) which employs the Residual Quantization (RQ) module to capture diverse style characteristics in singing voices. Our comprehensive evaluations in zero-shot style transfer unequivocally demonstrate that StyleSinger surpasses baseline models in terms of quality and similarity to the reference audio.
 
 # Parallel Style Transfer Samples
 
@@ -270,7 +270,7 @@ Target: 修炼爱情的心酸 AP 学会放好以前的渴望 AP 我们那些信�
 # Ablation Studies
 
 We undertake ablation studies to showcase the efficacy of various designs incorporated within StyleSinger.
-UMLN and RSA is the Uncertainty Modeling Layer Norm and the Residual Style Adaptor, while Pitch and Decoder means the Pitch Diffusion Predictor and the Diffusion Decoder.
+UMLN and RSA is the Uncertainty Modeling Layer Norm and the Residual Style Adaptor, while Pitch and Decoder means the pitch diffusion predictor and the diffusion decoder.
 
 1. Reference/Target: 是我唯一沉溺 AP 你是爱我的 AP 就不怕有缝隙 SP
 <table style='width: 100%;'>
