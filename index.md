@@ -9,8 +9,8 @@ However, existing SVS methods encounter a decline in the quality of synthesized 
 Moreover, the endeavor to model the intricate nuances of singing voice styles is an arduous task, as singing voices possess a remarkable degree of expressiveness. 
 To overcome these challenges, we propose StyleSinger, the first singing voice synthesis model for zero-shot style transfer of out-of-domain reference singing voice samples. 
 StyleSinger incorporates two critical approaches for enhanced effectiveness: 
-1) the Residual Style Adaptor (RSA) which employs a residual quantization module to capture diverse style characteristics in singing voices. 
-2) the Uncertainty Modeling Layer Normalization (UMLN) to perturb the style attributes within the content representation during the training phase and thus improve the model generalization, and 
+1) the Residual Style Adaptor (RSA) which employs a residual quantization module to capture diverse style characteristics in singing voices, and
+2) the Uncertainty Modeling Layer Normalization (UMLN) to perturb the style attributes within the content representation during the training phase and thus improve the model generalization.
 Our comprehensive evaluations in zero-shot style transfer unequivocally demonstrate that StyleSinger surpasses baseline models in quality and similarity to the reference singing voice samples.
 
 # Parallel Style Transfer Samples
