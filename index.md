@@ -128,7 +128,7 @@ In out-of-domain (OOD) scenarios, we utilize unseen reference audio with target 
 
 1. Reference: 风花雪月的诗句里我在年年的成长 AP
 
-Effectively capturing the timbre, pitch transitions, vocal techniques, and the delicate articulation skill.
+Effectively capturing the timbre, emotion, pitch transitions, vocal techniques, and delicate articulation skill.
 <table style='width: 33.3%;'>
 	<thead>
 		<tr>
@@ -177,7 +177,7 @@ Target: 吹向我脸庞 AP 想起你轻柔的话语 AP 曾打湿我眼眶 AP
 
 2. Reference: 为春风吹落 AP SP AP 只是简简单单的爱过我还
 
-Successfully transferring the timbre, vocal techniques, and the subtle elongation in articulation skill.
+Successfully transferring the timbre, emotion, vocal techniques, and subtle elongation in articulation skills.
 <table style='width: 33.3%;'>
 	<thead>
 		<tr>
@@ -226,7 +226,7 @@ Target: 幸福没有那么容易 AP 才会特别让人着迷 AP 什么都不懂�
 
 3. Reference: 圈圈圆圆圈圈天天年年天天的我深深看你的脸 AP 生气的温柔埋怨的温柔 SP
 
-Successfully transferring the timbre, vocal techniques, vibrato skill and the subtle elongation in articulation skill.
+Successfully transferring the timbre, emotion, vocal techniques, vibrato skill, and subtle elongation in articulation skill.
 <table style='width: 33.3%;'>
 	<thead>
 		<tr>
@@ -277,7 +277,7 @@ Target: 修炼爱情的心酸 AP 学会放好以前的渴望 AP 我们那些信�
 # Ablation Studies
 
 We undertake ablation studies to showcase the efficacy of various designs incorporated within StyleSinger.
-UMLN and RSA is the Uncertainty Modeling Layer Normalization and the Residual Style Adaptor, while Pitch and Decoder means the pitch diffusion predictor and the diffusion decoder.
+UMLN and RSA are the Uncertainty Modeling Layer Normalization and the Residual Style Adaptor, while Pitch and Decoder mean the pitch diffusion predictor and the diffusion decoder.
 
 1. Reference/Target: 是我唯一沉溺 AP 你是爱我的 AP 就不怕有缝隙 SP
 <table style='width: 100%;'>
