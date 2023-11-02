@@ -18,6 +18,9 @@ Our extensive evaluations in zero-shot style transfer undeniably establish that 
 In the context of out-of-domain (OOD) scenarios, where the content of the reference voice remains unchanged.
 
 1. Reference/Target: 风花雪月的诗句里我在年年的成长 AP
+
+global style class: tenor happy
+
 <table style='width: 100%;'>
 	<thead>
 		<tr>
@@ -53,6 +56,9 @@ In the context of out-of-domain (OOD) scenarios, where the content of the refere
 </table>
 
 2. Reference/Target: 为春风吹落 AP SP AP 只是简简单单的爱过我还
+
+global style class: alto sad
+
 <table style='width: 100%;'>
 	<thead>
 		<tr>
@@ -88,6 +94,9 @@ In the context of out-of-domain (OOD) scenarios, where the content of the refere
 </table>
 
 3. Reference/Target: 我还在逞强 AP 说着谎 AP 也没能力遮挡你去的方向
+
+global style class: alto sad
+
 <table style='width: 100%;'>
 	<thead>
 		<tr>
@@ -128,7 +137,9 @@ In out-of-domain (OOD) scenarios, we utilize unseen reference audio with target 
 
 1. Reference: 风花雪月的诗句里我在年年的成长 AP
 
-Effectively capturing the timbre, emotion, pitch transitions, vocal techniques, and delicate articulation skill.
+global style class: tenor happy
+
+Effectively capturing the timbre, emotion, pitch transitions, vocal techniques, and delicate articulation skills.
 <table style='width: 33.3%;'>
 	<thead>
 		<tr>
@@ -176,6 +187,8 @@ Target: 吹向我脸庞 AP 想起你轻柔的话语 AP 曾打湿我眼眶 AP
 </table>
 
 2. Reference: 为春风吹落 AP SP AP 只是简简单单的爱过我还
+
+global style class: alto sad
 
 Successfully transferring the timbre, emotion, vocal techniques, and subtle elongation in articulation skills.
 <table style='width: 33.3%;'>
@@ -225,6 +238,8 @@ Target: 幸福没有那么容易 AP 才会特别让人着迷 AP 什么都不懂�
 </table>
 
 3. Reference: 圈圈圆圆圈圈天天年年天天的我深深看你的脸 AP 生气的温柔埋怨的温柔 SP
+
+global style class: alto sad
 
 Successfully transferring the timbre, emotion, vocal techniques, vibrato skill, and subtle elongation in articulation skill.
 <table style='width: 33.3%;'>
@@ -280,6 +295,9 @@ We undertake ablation studies to showcase the efficacy of various designs incorp
 UMLN and RSA are the Uncertainty Modeling Layer Normalization and the Residual Style Adaptor, while Pitch and Decoder mean the pitch diffusion predictor and the diffusion decoder.
 
 1. Reference/Target: 是我唯一沉溺 AP 你是爱我的 AP 就不怕有缝隙 SP
+
+global style class: tenor happy
+
 <table style='width: 100%;'>
 	<thead>
 		<tr>
