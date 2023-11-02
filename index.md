@@ -296,8 +296,6 @@ UMLN and RSA are the Uncertainty Modeling Layer Normalization and the Residual S
 
 1. Reference/Target: 是我唯一沉溺 AP 你是爱我的 AP 就不怕有缝隙 SP
 
-global style class: tenor happy
-
 <table style='width: 100%;'>
 	<thead>
 		<tr>
