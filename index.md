@@ -21,6 +21,18 @@ In the context of out-of-domain (OOD) scenarios, where the content of the refere
 
 global style class: tenor happy
 
+<table style='width: 33.3%;'>
+	<thead>
+		<tr>
+			<th style="text-align: center">Reference</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/parallel/ori/001.wav" type="audio/wav"></audio></td>
+		</tr>
+	</tbody>
+</table>
 <table style='width: 100%;'>
 	<thead>
 		<tr>
@@ -59,6 +71,18 @@ global style class: tenor happy
 
 global style class: alto sad
 
+<table style='width: 33.3%;'>
+	<thead>
+		<tr>
+			<th style="text-align: center">Reference</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/parallel/ori/002.wav" type="audio/wav"></audio></td>
+		</tr>
+	</tbody>
+</table>
 <table style='width: 100%;'>
 	<thead>
 		<tr>
@@ -97,6 +121,18 @@ global style class: alto sad
 
 global style class: alto sad
 
+<table style='width: 33.3%;'>
+	<thead>
+		<tr>
+			<th style="text-align: center">Reference</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/parallel/ori/003.wav" type="audio/wav"></audio></td>
+		</tr>
+	</tbody>
+</table>
 <table style='width: 100%;'>
 	<thead>
 		<tr>
