@@ -335,6 +335,19 @@ UMLN and RSA are the Uncertainty Modeling Layer Normalization and the Residual S
 
 global style class: alto sad
 
+<table style='width: 33.3%;'>
+	<thead>
+		<tr>
+			<th style="text-align: center">Reference</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/ablation/ori/001.wav" type="audio/wav"></audio></td>
+		</tr>
+	</tbody>
+</table>
+
 <table style='width: 100%;'>
 	<thead>
 		<tr>
