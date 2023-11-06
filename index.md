@@ -344,7 +344,7 @@ global style class: alto sad
 	<tbody>
 		<tr>
       			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/ablation/wo rq/001.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/ablation/mix-style/001.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/ablation/mix-layer/001.wav" type="audio/wav"></audio></td>
       			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/ablation/rmssinger/001.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
