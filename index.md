@@ -24,7 +24,7 @@ global style class: tenor happy
 <table style='width: 100%;'>
 	<thead>
 		<tr>
-			<th style="text-align: center">Reference</th>
+			<th style="text-align: center">Ref(vocoder)</th>
 			<th style="text-align: center">Styler</th>
 			<th style="text-align: center">GenerSpeech</th>
 		</tr>
@@ -62,7 +62,7 @@ global style class: alto sad
 <table style='width: 100%;'>
 	<thead>
 		<tr>
-			<th style="text-align: center">Reference</th>
+			<th style="text-align: center">Ref(vocoder)</th>
 			<th style="text-align: center">Styler</th>
 			<th style="text-align: center">GenerSpeech</th>
 		</tr>
@@ -100,7 +100,7 @@ global style class: alto sad
 <table style='width: 100%;'>
 	<thead>
 		<tr>
-			<th style="text-align: center">Reference</th>
+			<th style="text-align: center">Ref(vocoder)</th>
 			<th style="text-align: center">Styler</th>
 			<th style="text-align: center">GenerSpeech</th>
 		</tr>
@@ -143,7 +143,7 @@ Effectively capturing the timbre, emotion, pitch transitions, vocal techniques, 
 <table style='width: 33.3%;'>
 	<thead>
 		<tr>
-			<th style="text-align: center">Reference</th>
+			<th style="text-align: center">Ref(vocoder)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -194,7 +194,7 @@ Successfully transferring the timbre, emotion, vocal techniques, and subtle elon
 <table style='width: 33.3%;'>
 	<thead>
 		<tr>
-			<th style="text-align: center">Reference</th>
+			<th style="text-align: center">Ref(vocoder)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -245,7 +245,7 @@ Successfully transferring the timbre, emotion, vocal techniques, vibrato skill, 
 <table style='width: 33.3%;'>
 	<thead>
 		<tr>
-			<th style="text-align: center">Reference</th>
+			<th style="text-align: center">Ref(vocoder)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -293,13 +293,16 @@ Target: 修炼爱情的心酸 AP 学会放好以前的渴望 AP 我们那些信�
 
 We undertake ablation studies to showcase the efficacy of various designs incorporated within StyleSinger.
 UMLN and RSA are the Uncertainty Modeling Layer Normalization and the Residual Style Adaptor, while Pitch and Decoder mean the pitch diffusion predictor and the diffusion decoder.
+1 RQ means RQ depth=1, MSLN means using Mix-Style LN instead of UMLN.
 
-1. Reference/Target: 是我唯一沉溺 AP 你是爱我的 AP 就不怕有缝隙 SP
+1. Reference/Target: 而鲜血如红唇 AP 前朝记忆渡红尘 AP 伤人的不是刀刃 AP
+
+global style class: alto sad
 
 <table style='width: 100%;'>
 	<thead>
 		<tr>
-			<th style="text-align: center">Reference</th>
+			<th style="text-align: center">Ref(vocoder)</th>
 			<th style="text-align: center">StyleSinger</th>
 			<th style="text-align: center">wo UMLN</th>
 		</tr>
@@ -329,3 +332,21 @@ UMLN and RSA are the Uncertainty Modeling Layer Normalization and the Residual S
 		</tr>
 	</tbody>
 </table>
+
+<table style='width: 100%;'>
+	<thead>
+		<tr>
+      			<th style="text-align: center">1 RQ</th>
+			<th style="text-align: center">MSLN</th>
+			<th style="text-align: center">MS RMSSinger</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/ablation/wo rq/001.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/ablation/mix-style/001.wav" type="audio/wav"></audio></td>
+      			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/ablation/rmssinger/001.wav" type="audio/wav"></audio></td>
+		</tr>
+	</tbody>
+</table>
+
