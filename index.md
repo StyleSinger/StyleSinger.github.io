@@ -329,7 +329,7 @@ Target: 修炼爱情的心酸 AP 学会放好以前的渴望 AP 我们那些信�
 
 We undertake ablation studies to showcase the efficacy of various designs incorporated within StyleSinger.
 UMLN and RSA are the Uncertainty Modeling Layer Normalization and the Residual Style Adaptor, while Pitch and Decoder mean the pitch diffusion predictor and the diffusion decoder.
-1 RQ means RQ depth=1, MSLN means using Mix-Style LN instead of UMLN.
+VQ means using VQ instead of RQ, and MSLN means using Mix-Style LN instead of UMLN.
 
 1. Reference/Target: 而鲜血如红唇 AP 前朝记忆渡红尘 AP 伤人的不是刀刃 AP
 
@@ -385,7 +385,7 @@ global style class: alto sad
 <table style='width: 100%;'>
 	<thead>
 		<tr>
-      			<th style="text-align: center">1 RQ</th>
+      			<th style="text-align: center">VQ</th>
 			<th style="text-align: center">MSLN</th>
 			<th style="text-align: center">MS RMSSinger</th>
 		</tr>
