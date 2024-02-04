@@ -17,7 +17,7 @@ Our extensive evaluations in zero-shot style transfer undeniably establish that 
 
 In the context of out-of-domain (OOD) scenarios, where the content of the reference voice remains unchanged.
 
-1. Reference/Target: 风花雪月的诗句里我在年年的成长 AP
+1.Reference/Target: 风花雪月的诗句里我在年年的成长 AP
 
 global style class: tenor happy
 
@@ -67,7 +67,7 @@ global style class: tenor happy
 	</tbody>
 </table>
 
-2. Reference/Target: 为春风吹落 AP SP AP 只是简简单单的爱过我还
+2.Reference/Target: 为春风吹落 AP SP AP 只是简简单单的爱过我还
 
 global style class: alto sad
 
@@ -117,7 +117,7 @@ global style class: alto sad
 	</tbody>
 </table>
 
-3. Reference/Target: 我还在逞强 AP 说着谎 AP 也没能力遮挡你去的方向
+3.Reference/Target: 我还在逞强 AP 说着谎 AP 也没能力遮挡你去的方向
 
 global style class: alto sad
 
@@ -171,7 +171,7 @@ global style class: alto sad
 
 In out-of-domain (OOD) scenarios, we utilize unseen reference audio with target notes and lyrics to synthesize the target singing voice. 
 
-1. Reference: 风花雪月的诗句里我在年年的成长 AP
+1.Reference: 风花雪月的诗句里我在年年的成长 AP
 
 global style class: tenor happy
 
@@ -222,7 +222,7 @@ Target: 吹向我脸庞 AP 想起你轻柔的话语 AP 曾打湿我眼眶 AP
 	</tbody>
 </table>
 
-2. Reference: 为春风吹落 AP SP AP 只是简简单单的爱过我还
+2.Reference: 为春风吹落 AP SP AP 只是简简单单的爱过我还
 
 global style class: alto sad
 
@@ -273,7 +273,7 @@ Target: 幸福没有那么容易 AP 才会特别让人着迷 AP 什么都不懂�
 	</tbody>
 </table>
 
-3. Reference: 圈圈圆圆圈圈天天年年天天的我深深看你的脸 AP 生气的温柔埋怨的温柔 SP
+3.Reference: 圈圈圆圆圈圈天天年年天天的我深深看你的脸 AP 生气的温柔埋怨的温柔 SP
 
 global style class: alto sad
 
@@ -331,7 +331,7 @@ We undertake ablation studies to showcase the efficacy of various designs incorp
 UMLN and RSA are the Uncertainty Modeling Layer Normalization and the Residual Style Adaptor, while Pitch and Decoder mean the pitch diffusion predictor and the diffusion decoder.
 VQ means using VQ instead of RQ, and MSLN means using Mix-Style LN instead of UMLN.
 
-1. Reference/Target: 而鲜血如红唇 AP 前朝记忆渡红尘 AP 伤人的不是刀刃 AP
+1.Reference/Target: 而鲜血如红唇 AP 前朝记忆渡红尘 AP 伤人的不是刀刃 AP
 
 global style class: alto sad
 
